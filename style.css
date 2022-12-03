@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*clear-float*/
+
+.clear-fix {
+    clear: both;
+}
+
+/*start navbar*/
+
+.navbar {
+
+}
+
+.navbar-logo {
+    width: 50%;
+    float: left;
+}
+
+.navbar-logo img {
+    width: 24%;
+    margin: 0px 50px;
+}
+
+.navbar-list {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.navbar-list ul {
+    list-style-type: none;
+    padding: 15px 0px;
+}
+
+.navbar-list ul .list-item {
+    width: 15%;
+    float: left;
+}
+
+
+.navbar-list ul a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*End navbar*/
+
+/* Start Home page*/
+.home {
+    height: 100vh;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.home-content {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+}
+
+.home-content p {
+    color: #ccc;
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 1.86em;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.home-content h1 {
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-family: Alegreya, serif, monospace;
+    font-weight: bold;
+}
+
+.home button {
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    color: #fff;
+}
+
+.btn1 {
+    border: none;
+    background-color: #8e7754;
+}
+
+.btn2 {
+    border-color: #fff;
+    background-color: transparent;
+}
+
+/*End Home page*/
+
+/*Who are you? section-1*/
+.item-sec1 {
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 40px 20px;
+}
+
+.item-sec1 img {
+    width: 95%;
+    padding: 20px;
+    margin-left: 40px;
+}
+
+.item-content {
+    margin-top: 50px;
+    padding: 50px 40px 0 0;
+
+}
+
+.item-content h2 {
+    color: #303030;
+    margin-bottom: 30px;
+    font-family: Alegreya, serif, monospace;
+    font-size: 1.5em;
+}
+
+.item-content p,.list {
+    color: #686868;
+    line-height: 1.86em;
+    margin-right: 40px;
+    font-weight: 400;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.list {
+    margin-top: 20px;
+    text-align: left;
+    padding: 0px 10px;
+    list-style-type: none;
+
+}
+
+.list img {
+    padding: 0px 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 7%;
+
+}
+
+/*End Section-1*/
+
+/*section-2 Our Location*/
+.item-sec2 {
+    text-align: center;
+    width: 50%;
+    float: left;
+    margin: 30px 0px;
+}
+
+.item-content2 {
+    padding: 50px 20px;
+}
+
+.item-content2 h2 {
+    color: #303030;
+    font-family: Alegreya, serif, monospace;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.item-content2 p {
+    color: #686868;
+    line-height: 1.86em;
+    margin-left: 40px;
+    margin-right: 10px;
+    padding: 10px;
+    font-weight: 400;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.item-sec2 img {
+    width: 88%;
+    float: left;
+    padding: 20px;
+
+}
+/*End section-2*/
+
+/*our Baking section-3*/
+.section3 {
+    padding: 0px 40px;
+    margin-left: 20px;
+}
+
+.section3 h2 {
+    color: #303030;
+    margin: 30px 0px;
+    font-family: Alegreya, serif, monospace;
+}
+
+.section3 p {
+    color: #686868;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.item-sec3 {
+    width: 32%;
+    float: left;
+}
+
+.item-sec3 img {
+    width: 90%;
+    padding: 10px 5px;
+}
+
+.item-sec3 h4 {
+    font-size: 17px;
+    line-height: 1.38em;
+    font-family: Alegreya, serif, monospace;
+    font-weight: bold;
+    color: #303030;
+    margin-bottom: 10px;
+}
+
+.item-sec3 p {
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+
+}
+/*End section-4*/
+
+/*Contact Information section-4*/
+.section-4 {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.section-4 h2 {
+    color: #303030;
+    margin-bottom: 10px;
+    font-family: Alegreya, serif, monospace;
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.section-4 p {
+    color: #686868;
+    line-height: 1.86em;
+    margin: 0px 10px 0px 40px;
+    padding: 20px;
+    font-weight: 400;
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+.Map-Location {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+.Map-Location iframe {
+    float: left;
+    width: 70%;
+    height: 75vh;
+    margin: 30px 50px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.Contact-Info {
+    color: #686868;
+    line-height: 1.86em;
+    margin: 0px 10px 10px 50px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    text-align: left;
+    list-style-type: none;
+}
+
+.Contact-Info img {
+    padding: 0px 3px;
+    width: 7%;
+}
+/*End section-4*/
+
+/*section-5*/
+.section-5 {
+    background-color: #403d38;
+    padding: 5px 20px;
+}
+
+.item-sec5 {
+    width: 22.5%;
+    float: left;
+    background-color: transparent;
+    margin: 15px;
+}
+
+.item-sec5 h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin: 20px 10px;
+    font-family: Alegreya, serif, monospace;
+}
+
+.item-sec5 p {
+    font-size: 18px;
+    color: #969696;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-family: Alegreya Sans, sans-serif, monospace;
+    text-align: left;
+
+}
+
+.item-sec5 li {
+    font-size: 23px;
+    text-align: left;
+    border-bottom: 1px solid #303030;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #969696;
+    list-style-type: none;
+
+}
+
+.item-sec5 li a {
+    color: #969696;
+    text-decoration: none;
+}
+
+.item-sec5 img {
+    padding: 0px 5px;
+    width: 10%;
+}
+/*End section-5*/
+
+/*section-6*/
+.section-6 {
+    text-align: center;
+    background-color: #353330;
+}
+
+.copyright {
+    width: 20%;
+    margin: auto;
+}
+
+.copyright p {
+    font-size: 14px;
+    color: #969696;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.copyright img {
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.icons li {
+    list-style-type: none;
+    width: 18%;
+    float: left;
+    margin-bottom: 50px;
+
+}
+
+.icons img {
+    width: 100%;
+    float: left;
+    border-radius:50%;
+    margin: auto;
+    padding: 5px;
+    margin-left: 40px;
+
+}
+/*End section-6*/
